@@ -14,6 +14,6 @@ OBJFILES =
 
 TESTFILES =
 
-ADDLIBS = ../libsvm.a
+ADDLIBS = ../libsvm/libsvm.a
 
 include ../makefiles/default_rules.mk
