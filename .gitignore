@@ -12,7 +12,15 @@
 *.la
 *.a
 
+# /egs/
+egs/timit/s3/
+egs/timit/s4/
+egs/timit/s5/data/
+egs/timit/s5/exp/
+egs/timit/s5/mfcc/
+
 # /tools/
+tools/
 tools/ATLAS/
 tools/atlas3.8.3.tar.gz
 tools/irstlm/
@@ -44,7 +52,6 @@ tools/sph2pipe_v2.5/
 /src/bin/align-mapped
 /src/bin/align-equal
 /src/bin/compute-wer
-/src/bin/arpa2fst.cc
 /src/bin/ali-to-phones
 /src/bin/ali-to-post
 /src/bin/acc-lda
