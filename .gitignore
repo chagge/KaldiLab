@@ -18,6 +18,7 @@ egs/timit/s4/
 egs/timit/s5/data/
 egs/timit/s5/exp/
 egs/timit/s5/mfcc/
+egs/timit/s5/data-fmllr-tri3/
 
 # /tools/
 tools/

@@ -79,7 +79,7 @@ steps/decode.sh --stage 1 --nj "$decode_nj" --cmd "$decode_cmd" \
 
 steps/decode.sh --stage 1 --nj "$decode_nj" --cmd "$decode_cmd" \
  exp/mono/graph data/test exp/mono/decode_test
-
+exit 1
 echo ============================================================================
 echo "           tri1 : Deltas + Delta-Deltas Training & Decoding               "
 echo ============================================================================
